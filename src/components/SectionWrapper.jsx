@@ -33,7 +33,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
             <Button 
               assetUrl={assets.expo}
               link="https://web-gl-car-2-demo.vercel.app/"
-              carid={'Bentley Silver Wings'}
+              carid={'Bentley Silver'}
             />
           )}
         </div>
