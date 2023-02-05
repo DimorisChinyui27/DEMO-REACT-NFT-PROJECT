@@ -15,7 +15,7 @@ const Home = () => {
             />
             <SectionWrapper 
               title="What is our mission?"
-              description="To transform luxury car collecting with NFT ownership of rare, exclusive vehicles via a secure and accessible marketplace powered by blockchain technology."
+              description="Bentley NFT Collection aims to revolutionize luxury vehicle ownership through the power of NFTs. Our platform offers one-of-a-kind collectible experiences for car enthusiasts. By combining passion for luxury vehicles with cutting-edge security, we bring a new level of excitement to ownership. Owning a luxury vehicle has never been more fulfilling and memorable. Join us on this journey to preserve the value of your favorite cars for generations to come."
               mockupImg={assets.Thumb}
               reverse
               second
