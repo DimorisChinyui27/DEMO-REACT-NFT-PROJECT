@@ -22,7 +22,7 @@ const styles = {
   btnPrimary:
     "bg-primary mt-4 py-4 px-6 text-white text-lg minmd:text-2xl font-IBMPlex font-medium rounded-lg hover:shadow-2xl hover:scale-110 hover:ease-in-out",
   btnBlack:
-    "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
+    "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer hover:scale-110 hover:ease-in-out",
 
   section: "flex justify-center items-center p-16 sm:p-8",
   subSection: "flex items-center w-full minmd:w-3/4",
