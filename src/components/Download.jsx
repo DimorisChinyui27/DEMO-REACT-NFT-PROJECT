@@ -86,7 +86,7 @@ const Download = () => {
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>Preorder Now</h1>
-          <p className={`${styles.pText} ${styles.blackText}`}>Ladies and Gentlemen, start your engines! The GT Bentley Car Collection NFTs are finally here and they are unlike anything you've ever seen before. Only <span className="font-bold text-3xl text-primary">300</span> pre-order spots available at an exclusive price of <span className="font-bold text-3xl text-primary"> 50CHF</span> each. These <span className="font-bold text-3xl text-tertiary">limited edition NFTS </span> feature breathtaking digital renderings of some of the world's most sought-after GT Bentley cars. </p>  
+          <p className={`${styles.pText} ${styles.blackText}`}> Only <span className="font-bold text-3xl text-primary">300</span> pre-order spots available at an exclusive price of <span className="font-bold text-3xl text-primary"> 50CHF</span> each. These <span className="font-bold text-3xl text-tertiary">limited edition NFTS </span> feature breathtaking digital renderings of some of the world's most sought-after GT Bentley cars. </p>  
         </div>
         <div ref={ref1} className={`${styles.subSection} flex-col text-center`}>
           <h1 className="font-bold text-4xl text-red-600">Number of Offers left:</h1>
