@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+ background: url("./assets/banner.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .videoframed {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .videoframed {
+    width: 480px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .videoframed {
+    width: 360px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .videoframed {
+    width: 300px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 329px) {
+  .videoframed {
+    width: 280px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .videoframed {
+    width: 260px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 284px) {
+  .videoframed {
+    width: 200px;
+    height: 210px;
+  }
+}
+
+.banner02 {
+  background: url("./assets/banner02.svg");
+  background-color: #0b65c6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.banner03 {
+  background: url("./assets/banner03.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.banner04 {
+  background: url("./assets/banner04.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.fadeLeftMini {
+  animation: fadeLeftMini 1s;
+  animation-fill-mode: both;
+}
+
+.fadeRightMini {
+  animation: fadeRightMini 1s;
+  animation-fill-mode: both;
+}
+
+.fadeTopMini {
+  animation: fadeTopMini 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeLeftMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(-40%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeRightMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(40%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0%);
+  }
+}
+
+@keyframes fadeTopMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -40%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateZ(0%);
+  }
+}
